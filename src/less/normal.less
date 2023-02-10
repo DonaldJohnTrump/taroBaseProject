@@ -1,0 +1,131 @@
+// @import "./config.less";
+// @import "./mixin.less";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html,
+body {
+  color: @text-color;
+  background-color: @bg-color;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
+  font-size: @font-size;
+}
+
+a {
+  text-decoration: none !important;
+  color: @text-color;
+
+  &:hover {
+    color: @text-color;
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+pre {
+  display: inline;
+  color: #a1a5a9;
+  background-color: #2e3238;
+  word-break: break-all;
+  word-wrap: break-word;
+  border: none;
+  border-radius: 4px;
+  line-height: 16px;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.ellipsis {
+  -o-text-overflow: ellipsis;
+  word-break: normal;
+  word-wrap: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.noselect {
+  user-select: none;
+}
+// #app {
+//   height: 100%;
+// }
+
+// /* 设置滚动条的样式 */
+// ::-webkit-scrollbar {
+//   width: 5px;
+//   height: 5px;
+// }
+// /* 滚动槽 */
+// ::-webkit-scrollbar-track {
+//   -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+//   border-radius: 10px;
+// }
+// /* 滚动条滑块 */
+// ::-webkit-scrollbar-thumb {
+//   border-radius: 10px;
+//   background: #dbe0e5;
+//   -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+// }

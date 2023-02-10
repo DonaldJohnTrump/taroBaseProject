@@ -4,6 +4,7 @@ import { RecoilRoot } from 'recoil'
 import 'taro-ui/dist/style/index.scss'
 import { AtToast } from 'taro-ui'
 // import { AtToast } from 'taro-ui'
+import './less/index.less'
 import './app.less'
 
 React.$AtToast = function(params) {
